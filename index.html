@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1>Digimon</h1>
+    <main class="container">
+        <div class="box">
+            <h2>Promesas</h2>
+            <form>
+                <input type="radio" id="opcionTextoPromesa" name="opcion" value="texto">
+                <label for="opcionTextoPromesa">Nombre</label><br>
+                <input type="radio" id="opcionImagenPromesa" name="opcion" value="imagen">
+                <label for="opcionAsyncAwait">Imagen</label><br><br>
+                <button type="button" id="botonPromesa">Seleccionar</button>
+            </form>
+            <h3 id="nombreDigimonPromesa">???</h3>
+            <div id="containerPromesas" class="containerImagen"></div>
+        </div>
+        <div class="box">
+            <h2>Async/Await</h2>
+            <form>
+                <input type="radio" id="opcionTextoAsync" name="opcion" value="texto">
+                <label for="opcionTextoAsync">Nombre</label><br>
+                <input type="radio" id="opcionImagenAsync" name="opcion" value="imagen">
+                <label for="opcionImagenAsync">Imagen</label><br><br>
+                <button type="button" id="botonAsync">Seleccionar</button>
+            </form>
+            <h3 id="nombreDigimonAsync">???</h3>
+            <div id="containerAsync" class="containerImagen"></div>
+        </div>
+    </main>
+    <script src="scriptPromesas.js"></script>
+    <script src="scriptAsync.js"></script>
+</body>
+
+</html>
