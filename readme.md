@@ -14,3 +14,4 @@ Un caso de error es cambiar en el código la *digimonID* a un número inferior a
 
 ![Imagen de error](img/error.png)
 
+https://fjrodryguez.github.io/T4.2Dev-Promesas-y-Async-Await/
